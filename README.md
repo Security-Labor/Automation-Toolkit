@@ -93,12 +93,12 @@ python base/tcp_scanner_simple.py google.com -p 80,443 -o resultados.json
 Parâmetros:
 
 Parâmetro Descrição Default
-target IP ou hostname alvo Obrigatório
+```target IP ou hostname alvo Obrigatório
 -p, --ports Portas para escanear (ex: 80,443 ou 1-1000) 1-1024
 -t, --timeout Timeout em segundos 1.0
 -o, --output Arquivo de saída (.json ou .csv) None
 -v, --verbose Modo detalhado False
-
+```
 Scanner Multi-thread
 
 Scanner de alta performance com suporte a múltiplas threads.
