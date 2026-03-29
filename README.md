@@ -118,12 +118,13 @@ Parâmetros:
 
 Parâmetro Descrição Default
 target IP ou hostname alvo Obrigatório
+```bash
 -p, --ports Portas para escanear 1-1024
 -t, --timeout Timeout em segundos 1.0
 -T, --threads Número de threads 100
 -o, --output Arquivo de saída (.json) None
 -v, --verbose Modo detalhado False
-
+```
 Utilitários
 
 Teste os módulos utilitários:
