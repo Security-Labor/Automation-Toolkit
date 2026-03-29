@@ -204,7 +204,7 @@ Fase 4: Ferramentas de Rede (60h)
 · Network sniffing
 · MITM framework
 
-🤝 Contribuição
+🤝 **Contribuição**
 
 Contribuições são bem-vindas! Siga os passos:
 
@@ -214,27 +214,27 @@ Contribuições são bem-vindas! Siga os passos:
 4. Push para a branch (git push origin feature/AmazingFeature)
 5. Abra um Pull Request
 
-Padrões de código:
+**Padrões de código:**
 
 · Use type hints
 · Documente funções com docstrings
 · Siga PEP 8
 · Inclua exemplos de uso
 
-📝 Licença
+📝 **Licença**
 
-Distribuído sob a licença MIT. Veja LICENSE para mais informações.
+Distribuído sob a licença Apache 2.0. Veja LICENSE para mais informações.
 
-⚠️ Aviso Legal
+⚠️ **Aviso Legal**
 
 Este projeto é apenas para fins educacionais!
 
-O uso destas ferramentas para atividades maliciosas é estritamente proibido. Você é responsável por cumprir todas as leis aplicáveis e obter autorização apropriada antes de realizar qualquer teste de segurança.
+**O uso destas ferramentas para atividades maliciosas é estritamente proibido. Você é responsável por cumprir todas as leis aplicáveis e obter autorização apropriada antes de realizar qualquer teste de segurança.**
 
 · ✅ Use apenas em sistemas que você possui autorização para testar
 · ✅ Respeite leis locais e internacionais
 · ✅ Pratique em ambientes controlados (VMs, CTF, labs)
-· ❌ Não utilize para ataques não autorizados
+· ❌ **Não utilize para ataques não autorizados**
 
 📚 Referências
 
@@ -242,18 +242,18 @@ O uso destas ferramentas para atividades maliciosas é estritamente proibido. Vo
 · OWASP Testing Guide
 · Nmap Network Scanning
 
-📞 Contato
+📞 **Contato**
 
 URSA UNIVERSITY - @ursa_university - suporteursauniversity.tech@gmail.com
 
-🔗 Links:
+🔗 **Links:**
 
 · GitHub: https://github.com/Security-Labor/Automation-Toolkit
 · Landing Page: https://security-labor.github.io/Automation-Toolkit/
 
 ---
 
-⭐️ Dê uma estrela se este projeto foi útil!
+⭐️ **Dê uma estrela se este projeto foi útil!**
 
 ```├── exploits/                      # Módulos de exploração (em desenvolvimento)
 ├── network/                       # Ferramentas de rede (em desenvolvimento)
@@ -269,7 +269,7 @@ URSA UNIVERSITY - @ursa_university - suporteursauniversity.tech@gmail.com
 - Pip (gerenciador de pacotes Python)
 - Acesso root (para algumas funcionalidades de rede)
 
-## 📦 Instalação
+## 📦 **Instalação**
 
 ```bash
 # Clone o repositório
@@ -283,7 +283,7 @@ pip install -r base/requirements.txt
 chmod +x base/*.py
 ```
 
-🛠️ Ferramentas
+🛠️ **Ferramentas**
 
 Scanner TCP Simples
 
@@ -304,12 +304,13 @@ Parâmetros:
 
 Parâmetro Descrição Default
 target IP ou hostname alvo Obrigatório
+```
 -p, --ports Portas para escanear (ex: 80,443 ou 1-1000) 1-1024
 -t, --timeout Timeout em segundos 1.0
 -o, --output Arquivo de saída (.json ou .csv) None
 -v, --verbose Modo detalhado False
-
-Scanner Multi-thread
+```
+***Scanner Multi-thread**
 
 Scanner de alta performance com suporte a múltiplas threads.
 
@@ -328,13 +329,14 @@ Parâmetros:
 
 Parâmetro Descrição Default
 target IP ou hostname alvo Obrigatório
+```
 -p, --ports Portas para escanear 1-1024
 -t, --timeout Timeout em segundos 1.0
 -T, --threads Número de threads 100
 -o, --output Arquivo de saída (.json) None
 -v, --verbose Modo detalhado False
-
-Utilitários
+```
+**Utilitários**
 
 Teste os módulos utilitários:
 
@@ -346,7 +348,7 @@ python base/logger.py
 python base/utils.py
 ```
 
-📊 Exemplos de Saída
+📊 **Exemplos de Saída**
 
 Console (JSON formatado)
 
@@ -381,7 +383,7 @@ PORTA      SERVIÇO          STATUS
 ============================================================
 ```
 
-🗺️ Roadmap
+🗺️ **Roadmap**
 
 Fase 1: Fundamentos ✅ (40h)
 
@@ -413,9 +415,9 @@ Fase 4: Ferramentas de Rede (60h)
 · Network sniffing
 · MITM framework
 
-🤝 Contribuição
+🤝 **Contribuição**
 
-Contribuições são bem-vindas! Siga os passos:
+Contribuições são **bem-vindas**! Siga os passos:
 
 1. Fork o projeto
 2. Crie sua branch (git checkout -b feature/AmazingFeature)
@@ -434,7 +436,7 @@ Padrões de código:
 
 Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 
-⚠️ Aviso Legal
+⚠️ **Aviso Legal**
 
 Este projeto é apenas para fins educacionais!
 
