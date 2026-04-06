@@ -1,2 +1,0 @@
-# Ferramentas básicas (por enquanto apenas padrão)
-# Instale com: pip install -r requirements.txt
